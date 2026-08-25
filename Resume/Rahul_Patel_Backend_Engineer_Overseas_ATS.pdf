@@ -1,0 +1,179 @@
+%PDF-1.4
+%ту╧╙
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R /Lang (en) /MarkInfo << /Marked false >> >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [6 0 R 8 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+5 0 obj
+<< /Title (Rahul Patel - Backend Engineer) /Author (Rahul Patel) /Subject (Backend Engineer resume) /Keywords (C#, .NET, .NET Core, ASP.NET Core, ASP.NET MVC, ASP.NET Web API, Entity Framework, EF Core, LINQ, REST API, SQL Server, PostgreSQL, AWS, SQS, SES, EventBridge, Redis, RabbitMQ, SignalR, Backend Engineer, Software Engineer, eDiscovery, LegalTech, Agile, Scrum) /Creator (Microsoft Word) /Producer (Microsoft Word) >>
+endobj
+6 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> /ProcSet [/PDF /Text] >> /Contents 7 0 R >>
+endobj
+7 0 obj
+<< /Length 7786 >>
+stream
+BT 0 g 1 0 0 1 52.00 793.89 Tm /F2 20 Tf (Rahul Patel) Tj ET 0 g 
+BT 0.22 g 1 0 0 1 52.00 770.89 Tm /F1 9.6 Tf (Backend Engineer  |  C# / .NET Core / ASP.NET Core  |  AWS  |  SQL Server, PostgreSQL) Tj ET 0 g 
+BT 0.14 g 1 0 0 1 52.00 756.69 Tm /F1 8.9 Tf (rahulpatel.bca10@gmail.com  |  +91 9904300297  |  linkedin.com/in/rahul-patel-889459229) Tj ET 0 g 
+BT 0.14 g 1 0 0 1 52.00 745.29 Tm /F1 8.9 Tf (Location: Surat, India  |  Indian national, requires work authorization  |  Open to relocation) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 722.89 Tm /F2 9.8 Tf (PROFESSIONAL SUMMARY) Tj ET 0 g 
+0.62 G 0.7 w 52.00 718.69 m 543.28 718.69 l S 0 G 
+BT 0 g 1 0 0 1 52.00 709.49 Tm /F1 9.3 Tf (Backend engineer with 4.5+ years building and maintaining enterprise applications in C#, .NET Core, ASP.NET MVC) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 698.09 Tm /F1 9.3 Tf (and ASP.NET Core. Currently working on a large-scale eDiscovery \(LegalTech\) platform used by US federal agencies,) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 686.69 Tm /F1 9.3 Tf (building backend services, data processing workflows, FOIA features and multilingual content processing. Redesigned) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 675.29 Tm /F1 9.3 Tf (an email processing pipeline into an event-driven flow using AWS SES, EventBridge and SQS, cutting a 7-10 hour run) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 663.89 Tm /F1 9.3 Tf (to approximately 1-1.5 hours. Experienced in REST API design, SQL Server and PostgreSQL query optimization,) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 652.49 Tm /F1 9.3 Tf (asynchronous and event-driven processing with queues, and third-party and payment gateway integrations. All) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 641.09 Tm /F1 9.3 Tf (professional work carried out in English.) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 616.49 Tm /F2 9.8 Tf (TECHNICAL SKILLS) Tj ET 0 g 
+0.62 G 0.7 w 52.00 612.29 m 543.28 612.29 l S 0 G 
+BT 0 g 1 0 0 1 52.00 603.09 Tm /F2 9.3 Tf (Languages:) Tj /F1 9.3 Tf (  C#, SQL, JavaScript) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 589.89 Tm /F2 9.3 Tf (Backend:) Tj /F1 9.3 Tf (  .NET Core, ASP.NET Core, ASP.NET MVC, ASP.NET Web API, Entity Framework / EF Core, LINQ,) Tj ET 0 g 
+BT 0 g 1 0 0 1 64.00 578.59 Tm /F1 9.3 Tf (REST API design) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 565.39 Tm /F2 9.3 Tf (Cloud and Messaging:) Tj /F1 9.3 Tf (  Amazon Web Services \(AWS\) - SES, EventBridge, SQS; Redis; RabbitMQ; event-driven) Tj ET 0 g 
+BT 0 g 1 0 0 1 64.00 554.09 Tm /F1 9.3 Tf (and asynchronous processing) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 540.89 Tm /F2 9.3 Tf (Databases:) Tj /F1 9.3 Tf (  Microsoft SQL Server, PostgreSQL, query optimization, performance tuning) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 527.69 Tm /F2 9.3 Tf (Real-time and Integrations:) Tj /F1 9.3 Tf (  SignalR, Firebase Cloud Messaging \(FCM\), payment gateways \(Stripe, PayPal,) Tj ET 0 g 
+BT 0 g 1 0 0 1 64.00 516.39 Tm /F1 9.3 Tf (CCAvenue\), Vonage, Google Maps, third-party REST APIs) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 503.19 Tm /F2 9.3 Tf (Frontend \(working knowledge\):) Tj /F1 9.3 Tf (  HTML, CSS, Bootstrap, JavaScript) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 489.99 Tm /F2 9.3 Tf (Tools:) Tj /F1 9.3 Tf (  Git, GitHub, Azure DevOps \(TFS\), TortoiseSVN, Postman, SQL Server Management Studio \(SSMS\)) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 476.79 Tm /F2 9.3 Tf (Practices:) Tj /F1 9.3 Tf (  Agile \(Scrum\), code review, SDLC, performance optimization, production support) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 463.59 Tm /F2 9.3 Tf (AI-assisted development:) Tj /F1 9.3 Tf (  GitHub Copilot, Claude) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 439.39 Tm /F2 9.8 Tf (DOMAIN EXPERIENCE) Tj ET 0 g 
+0.62 G 0.7 w 52.00 435.19 m 543.28 435.19 l S 0 G 
+BT 0 g 1 0 0 1 52.00 425.99 Tm /F2 9.3 Tf (Legal technology and eDiscovery) Tj /F1 9.3 Tf ( - backend development on a document and email processing platform serving US) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 414.59 Tm /F1 9.3 Tf (federal agencies, including Freedom of Information Act \(FOIA\) workflows and multilingual content processing.) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 403.19 Tm /F2 9.3 Tf (Healthcare) Tj /F1 9.3 Tf ( - telehealth platform with video consultation and payments. ) Tj /F2 9.3 Tf (Education) Tj /F1 9.3 Tf ( - multi-institution ERP and) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 391.79 Tm /F1 9.3 Tf (reporting.) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 367.19 Tm /F2 9.8 Tf (PROFESSIONAL EXPERIENCE) Tj ET 0 g 
+0.62 G 0.7 w 52.00 362.99 m 543.28 362.99 l S 0 G 
+BT 0 g 1 0 0 1 52.00 353.79 Tm /F2 10 Tf (Software Engineer) Tj ET 0 g 
+BT 0.25 g 1 0 0 1 456.02 353.79 Tm /F1 10 Tf (May 2025 - Present) Tj ET 0 g 
+BT 0.3 g 1 0 0 1 52.00 341.49 Tm /F1 9.1 Tf (Casepoint LLC  |  Surat, India) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 327.09 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 327.09 Tm /F1 9.3 Tf (Build and maintain backend modules for a large-scale eDiscovery \(LegalTech\) platform used by US federal) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 315.69 Tm /F1 9.3 Tf (agencies, using ASP.NET MVC and .NET.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 302.79 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 302.79 Tm /F1 9.3 Tf (Redesigned the email processing pipeline from a sequential job into an event-driven flow using AWS SES,) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 291.39 Tm /F1 9.3 Tf (EventBridge and SQS, reducing a full run from 7-10 hours to approximately 1-1.5 hours - an improvement of) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 279.99 Tm /F1 9.3 Tf (around ) Tj /F2 9.3 Tf (80%) Tj /F1 9.3 Tf (.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 267.09 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 267.09 Tm /F1 9.3 Tf (Develop backend features for FOIA \(Freedom of Information Act\) workflows and multilingual content processing.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 254.19 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 254.19 Tm /F1 9.3 Tf (Optimize SQL queries and refactor legacy code to improve scalability, maintainability and system performance.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 241.29 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 241.29 Tm /F1 9.3 Tf (Contribute to platform modernization and migration work by enhancing existing modules and building new) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 229.89 Tm /F1 9.3 Tf (functionality.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 216.99 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 216.99 Tm /F1 9.3 Tf (Work in an Agile \(Scrum\) team using Azure DevOps - sprint planning, backlog refinement, daily stand-ups and) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 205.59 Tm /F1 9.3 Tf (code review - with product, QA and engineering.) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 192.69 Tm /F2 10 Tf (Junior .NET Developer) Tj ET 0 g 
+BT 0.25 g 1 0 0 1 451.56 192.69 Tm /F1 10 Tf (Feb 2024 - Apr 2025) Tj ET 0 g 
+BT 0.3 g 1 0 0 1 52.00 180.39 Tm /F1 9.1 Tf (Vision Infotech  |  Navsari, India) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 165.99 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 165.99 Tm /F1 9.3 Tf (Developed and enhanced backend features for enterprise applications using .NET technologies.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 153.09 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 153.09 Tm /F1 9.3 Tf (Gathered requirements directly with clients and internal teams, and delivered the corresponding technical) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 141.69 Tm /F1 9.3 Tf (solutions.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 128.79 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 128.79 Tm /F1 9.3 Tf (Implemented new modules, resolved production issues and improved application reliability.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 115.89 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 115.89 Tm /F1 9.3 Tf (Carried out database enhancements and query optimization for more efficient data processing.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 102.99 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 102.99 Tm /F1 9.3 Tf (Handled maintenance, debugging and application support.) Tj ET 0 g 
+endstream
+endobj
+8 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Resources << /Font << /F1 3 0 R /F2 4 0 R >> /ProcSet [/PDF /Text] >> /Contents 9 0 R >>
+endobj
+9 0 obj
+<< /Length 5526 >>
+stream
+BT 0 g 1 0 0 1 52.00 793.89 Tm /F2 10 Tf (.NET Developer) Tj ET 0 g 
+BT 0.25 g 1 0 0 1 450.45 793.89 Tm /F1 10 Tf (Dec 2021 - Jan 2024) Tj ET 0 g 
+BT 0.3 g 1 0 0 1 52.00 781.59 Tm /F1 9.1 Tf (Zibma Infotech  |  Surat, India) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 767.19 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 767.19 Tm /F1 9.3 Tf (Built ERP web applications used by educational institutions.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 754.29 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 754.29 Tm /F1 9.3 Tf (Processed and managed datasets exceeding ) Tj /F2 9.3 Tf (100,000 records) Tj /F1 9.3 Tf ( while maintaining application performance.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 741.39 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 741.39 Tm /F1 9.3 Tf (Developed reporting modules covering multiple user roles and business workflows.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 728.49 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 728.49 Tm /F1 9.3 Tf (Integrated third-party services including payment gateways and Google Maps.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 715.59 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 715.59 Tm /F1 9.3 Tf (Optimized SQL queries and resolved production issues to improve stability and performance.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 702.69 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 702.69 Tm /F1 9.3 Tf (Worked with cross-functional teams to deliver new features and enhancements.) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 678.79 Tm /F2 9.8 Tf (PROJECTS) Tj ET 0 g 
+0.62 G 0.7 w 52.00 674.59 m 543.28 674.59 l S 0 G 
+BT 0 g 1 0 0 1 52.00 665.39 Tm /F2 9.8 Tf (VCDoctor - Telehealth Platform) Tj ET 0 g 
+BT 0.32 g 1 0 0 1 52.00 653.39 Tm /F1 9 Tf (ASP.NET MVC \(Razor Pages\), SQL Server, SignalR, Firebase) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 639.29 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 639.29 Tm /F1 9.3 Tf (Integrated Stripe and PayPal payment gateways.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 626.39 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 626.39 Tm /F1 9.3 Tf (Integrated Vonage for real-time video consultations.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 613.49 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 613.49 Tm /F1 9.3 Tf (Built backend APIs supporting both web and mobile clients.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 600.59 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 600.59 Tm /F1 9.3 Tf (Implemented one-to-one messaging with SignalR, and Firebase Cloud Messaging for call notifications and) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 589.19 Tm /F1 9.3 Tf (multi-device signalling.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 576.29 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 576.29 Tm /F1 9.3 Tf (Improved application reliability through testing and backend optimization.) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 563.39 Tm /F2 9.8 Tf (Zibma School ERP - Education Management System) Tj ET 0 g 
+BT 0.32 g 1 0 0 1 52.00 551.39 Tm /F1 9 Tf (ASP.NET Web Pages, .NET Core \(Web API\), SQL Server, Firebase) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 537.29 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 537.29 Tm /F1 9.3 Tf (Developed ERP modules supporting multiple educational institutions.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 524.39 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 524.39 Tm /F1 9.3 Tf (Built .NET Core APIs and integrated them into an existing ASP.NET application.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 511.49 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 511.49 Tm /F1 9.3 Tf (Built custom reporting features for different user roles, improving data accessibility and operational efficiency.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 498.59 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 498.59 Tm /F1 9.3 Tf (Integrated Google Maps, and PayPal and CCAvenue payment gateways.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 485.69 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 485.69 Tm /F1 9.3 Tf (Implemented Firebase notifications for attendance, fee and announcement updates.) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 472.79 Tm /F2 9.8 Tf (HRMS - Human Resource Management System) Tj ET 0 g 
+BT 0.32 g 1 0 0 1 52.00 460.79 Tm /F1 9 Tf (.NET Core, Angular, SQL Server) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 446.69 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 446.69 Tm /F1 9.3 Tf (Developed employee management and payroll functionality.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 433.79 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 433.79 Tm /F1 9.3 Tf (Optimized SQL queries to improve data retrieval performance.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 420.89 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 420.89 Tm /F1 9.3 Tf (Implemented pagination to reduce load times and improve user experience.) Tj ET 0 g 
+BT 0 g 1 0 0 1 60.00 407.99 Tm /F1 9.3 Tf (Х) Tj ET 0 g 
+BT 0 g 1 0 0 1 71.00 407.99 Tm /F1 9.3 Tf (Collaborated with frontend developers on API integration.) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 384.09 Tm /F2 9.8 Tf (EDUCATION) Tj ET 0 g 
+0.62 G 0.7 w 52.00 379.89 m 543.28 379.89 l S 0 G 
+BT 0 g 1 0 0 1 52.00 370.69 Tm /F2 9.3 Tf (Bachelor of Computer Applications \(BCA\)) Tj /F1 9.3 Tf (  |  Veer Narmad South Gujarat University \(VNSGU\), Surat, India  |  2017 -) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 359.29 Tm /F1 9.3 Tf (2020) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 334.69 Tm /F2 9.8 Tf (LANGUAGES) Tj ET 0 g 
+0.62 G 0.7 w 52.00 330.49 m 543.28 330.49 l S 0 G 
+BT 0 g 1 0 0 1 52.00 321.29 Tm /F1 9.3 Tf (English - professional working proficiency \(working language in all roles\)  |  Hindi - professional working proficiency  | ) Tj ET 0 g 
+BT 0 g 1 0 0 1 52.00 309.89 Tm /F1 9.3 Tf (Gujarati - native) Tj ET 0 g 
+endstream
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000015 00000 n 
+0000000105 00000 n 
+0000000168 00000 n 
+0000000265 00000 n 
+0000000367 00000 n 
+0000000809 00000 n 
+0000000973 00000 n 
+0000008810 00000 n 
+0000008974 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R /Info 5 0 R >>
+startxref
+14551
+%%EOF
