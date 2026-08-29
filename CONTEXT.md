@@ -177,7 +177,7 @@ Added after a working session on 25 August 2026. Everything above is the origina
 
 ## Application materials built - in the Resume folder
 
-- Four ATS resume variants, each as .docx and .pdf, each exactly two pages: India, North America, UK/Ireland/Australia/NZ (British spelling, personal statement at top), and Continental Europe (EU Blue Card line). Document 14 Part 6 asked for exactly these three overseas variants; that is now satisfied.
+- Four ATS resume variants, each as .docx and .pdf, each exactly two pages: India, North America, UK/Ireland/Australia/NZ (British spelling, personal statement at top), and Continental Europe. Document 14 Part 6 asked for exactly these three overseas variants; that is now satisfied. UPDATED 29 August 2026: the Europe variant's EU Blue Card eligibility line was removed and no variant now names a visa route at all — see the 29 August session below.
 - Four matching one-page cover letter templates, .docx and .pdf, using [[PLACEHOLDERS]]. The "why this company" paragraph is deliberately left empty with instructions in it, because it is the only paragraph that changes the outcome and it cannot be templated.
 - The old generic "Overseas" variant was deleted as superseded by the North America one.
 - The PDFs are rendered with typographic ligatures disabled on purpose. With ligatures on, fi and fl become single glyphs and an applicant tracking system searching for "workflow" or "notifications" matches nothing. Keep this in mind on any future export, including from Word.
@@ -196,7 +196,7 @@ Added after a working session on 25 August 2026. Everything above is the origina
 
 ## Still open
 
-- Verify three things before acting on any route change: whether Canada is running any Express Entry draw this profile can enter (IRCC), whether Germany’s IT-specialist Blue Card really waives the degree (make-it-in-germany.de and BAMF), and what NFQ level a three-year BCA is assigned in Ireland (NARIC Ireland). All three are now rows on the document 14 Part 8 checklist.
+- Verify three things before acting on any route change: whether Canada is running any Express Entry draw this profile can enter (IRCC), whether Germany’s IT-specialist Blue Card really waives the degree (make-it-in-germany.de and BAMF), and what NFQ level a three-year BCA is assigned in Ireland (NARIC Ireland). All three are now rows on the document 14 Part 8 checklist. UPDATE 29 August 2026: all three sources return HTTP 403 to automated access, so no tool can check them — they need a browser and a person. See the 29 August session below.
 - The longest-lead-time paperwork has not started: IELTS takes 4 to 8 weeks and the WES credential assessment 6 to 12 weeks. Document 14 schedules these for Month 4 weekends, but CRS and points scores start deducting from around age 30, so earlier is strictly better and none of it competes with studying.
 - Both known documentation errors listed above are still unfixed.
 - Applications have not started. The Week 20 gate still stands: do not apply to the companies you actually want before the project exists and is load tested. Amazon and Google specifically carry a 6 to 12 month cooldown after a rejection, so they wait until Weeks 23 and 24 at the earliest.
@@ -206,6 +206,36 @@ Added after a working session on 25 August 2026. Everything above is the origina
 - Prefer marking a claim unverified over stating it confidently. This applies above all to immigration rules, salary thresholds and visa routes, where being confidently wrong is worse than saying "not checked".
 - When correcting a plan document, add a dated addendum rather than silently rewriting it. Document 14 already uses a [VERIFY: source] convention for facts that move on a government timetable.
 - Do not overstate anything in a resume, a cover letter or an interview answer. Real production work described precisely is stronger than borrowed vocabulary.
+
+## Session of 29 August 2026
+
+Added after a working session on 29 August 2026. Nothing above was deleted; this records what changed and what was learned.
+
+### Application materials - corrected
+
+- The resumes and cover letters were rewritten. The email-processing result appeared three times in every resume (summary, Key Achievements, first job bullet); it now appears once, in the Casepoint role. The Professional Summary describes experience and stack instead of retelling that one result. The Key Achievements section was deleted as duplicative.
+- Experience and Projects no longer restate each other. Job bullets carry scope and ownership; Projects carries products and stacks, each attributed to its employer: VCDoctor and HRMS at Vision Infotech (VCDoctor a client project), Zibma School ERP at Zibma Infotech.
+- The employer line is now "Casepoint | Surat, India". It previously read "Casepoint LLC", which is the US entity, not the Surat employer.
+- **No visa route is named anywhere, in any resume or cover letter.** The only permitted wording is that sponsorship is required; the route is left to be discussed on a call. This removed the EU Blue Card line from the Europe resume, the named-permit sentence from the UK/IE/AU/NZ letter, and the Express Entry prompt from the North America letter. Keep it that way.
+- Two false claims were removed from the letters: that Blue Card eligibility was established, and that paperwork had "already been started" — IELTS and WES are both still outstanding.
+- Still exactly two pages per resume, one per letter, ligatures still disabled, same Chrome print-to-PDF pipeline.
+
+### Document 14 - corrected
+
+- **PART 0B added**: the per-channel odds the document never had, the corrected 2026 thresholds, and the structural reason Part 2 misleads — it ranks by time-to-PR once you are there, and never prices the probability of getting in at all.
+- Eight instances of the closed L-1 route were struck, plus the Part 7 F6 manager-conversation script and the Part 8 HR checklist row. Part 0A had retracted the route on 25 August but nothing in the body had been marked, so it still read as live advice.
+- Ten of the sixteen Part 3 sections now carry dated flags. An evidence-status note at the head of Part 3 records that exactly one company in the whole document — Relativity Krakow — has been checked against live evidence, and names five rows the research actively contradicts (Nuix's stack, Magnet Forensics' sponsorship, the Canadian banks and the Global Talent Stream, the Epiq/Consilio transfer route, and Microsoft/Amazon/Google marked as Direct).
+- The 3K instruction to lead applications with "US federal agencies … FOIA" was corrected. Part D claim 34 says that framing works against him outside the US; lead with the transferable substrate instead.
+
+### What the 29 August verification attempt established
+
+Ten web requests were spent on the four outstanding checks. Result:
+
+- **Five official sources block automated access, returning HTTP 403**: canada.ca (two separate pages), ind.nl, make-it-in-germany.de, bmi.bund.de. This reproduces what the 25 August research found for canada.ca, so it is policy rather than chance. The four verifications cannot be closed by any research tool — they need a browser and a person. Do not commission further research expecting a different outcome.
+- **Germany — sharpened, not settled.** The no-degree IT route does appear to exist, but German-language proficiency appears to be required as a rule, and it may be a *separate residence permit* from the EU Blue Card carrying a higher salary floor; a 2023 figure of EUR 52,560 surfaced against the EUR 45,934.20 in Part D claim 1. The question to ask is which of the two permits applies — not whether "the Blue Card waives the degree".
+- **Netherlands — one genuinely new fact, and it is favourable.** IND states the reduced under-30 salary criterion continues to apply after you turn 30, for as long as you stay with the same employer. Part D claim 5, and the "hard dated cliff" framing, were both too strong: it is a condition at the point of hire, not a deadline that closes the route. IND also publishes amounts valid 1 July to 31 December, so the January figures may already be superseded.
+- **Ireland — no independent confirmation.** The NFQ Level 7 reading came back from the same class of secondary source the original research used. But NARIC runs a free searchable database and issues generic comparability statements through an online form where a qualification is not listed. That is the cheap way to settle it, and it either opens or closes the Irish market.
+- **Canada — no progress.** The CRS contradiction of 429 against 450-470 is still open and still first in priority. Resolve it with the official CRS tool, not a third-party calculator: several of those get the education-plus-language transferability tier wrong, which is exactly where the two figures diverge.
 
 ---
 
