@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NexusPrep — FAANG/MAANG 6–8 Month SDE-2 Command Center</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header Bar -->
+  <header class="app-header">
+    <div class="header-left">
+      <div class="logo-badge">⚡ NEXUSPREP</div>
+      <div class="header-title-group">
+        <h1>FAANG / MAANG SDE-2 Command Center</h1>
+        <p class="header-sub">Rahul Patel • C# / .NET Core • 32 Weeks (224 Days)</p>
+      </div>
+    </div>
+
+    <div class="header-stats">
+      <div class="stat-pill">
+        <span class="stat-label">Progress</span>
+        <span class="stat-value" id="headerProgressPct">0%</span>
+        <div class="stat-mini-bar"><div class="stat-mini-fill" id="headerMiniBar"></div></div>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-label">Completed</span>
+        <span class="stat-value" id="headerDaysCount">0 / 224</span>
+      </div>
+      <div class="stat-pill">
+        <span class="stat-label">Target Role</span>
+        <span class="stat-badge">SDE-2 / L5</span>
+      </div>
+      <button class="btn-secondary" id="btnExportBackup" title="Export Backup JSON">💾 Backup Data</button>
+      <button class="btn-secondary" id="btnImportBackup" title="Import Backup JSON">📥 Import</button>
+      <input type="file" id="fileImportInput" style="display: none;" accept=".json">
+    </div>
+  </header>
+
+  <!-- Navigation Bar -->
+  <nav class="app-nav">
+    <button class="nav-tab active" data-tab="tabToday" id="navTabToday">🎯 Today's Mission</button>
+    <button class="nav-tab" data-tab="tabRoadmap" id="navTabRoadmap">🗺️ 224-Day Roadmap</button>
+    <button class="nav-tab" data-tab="tabDSA" id="navTabDSA">🧩 DSA Patterns</button>
+    <button class="nav-tab" data-tab="tabSystemDesign" id="navTabSD">🏗️ System Design (HLD/LLD)</button>
+    <button class="nav-tab" data-tab="tabProject" id="navTabProject">🛠️ NexusQueue Project</button>
+    <button class="nav-tab" data-tab="tabBehavioral" id="navTabBehavioral">🎭 STAR Behavioral</button>
+    <button class="nav-tab" data-tab="tabMistakes" id="navTabMistakes">⚠️ Mistake Register</button>
+  </nav>
+
+  <!-- Main Content Container -->
+  <main class="app-main">
+    
+    <!-- 1. TODAY'S MISSION TAB -->
+    <section class="tab-pane active" id="tabToday">
+      <div class="today-container">
+        <!-- Day Selector & Quick Control -->
+        <div class="today-top-controls">
+          <div class="day-switcher">
+            <button class="btn-icon" id="btnPrevDay" title="Previous Day">◀</button>
+            <div class="current-day-badge">
+              <span class="day-number" id="displayDayNum">Day 1</span>
+              <span class="day-meta" id="displayDayMeta">Week 1 • Monday</span>
+            </div>
+            <button class="btn-icon" id="btnNextDay" title="Next Day">▶</button>
+          </div>
+          <div class="day-actions">
+            <button class="btn-today-jump" id="btnJumpToToday">Jump to Current</button>
+            <label class="completion-toggle">
+              <input type="checkbox" id="chkDayComplete">
+              <span class="toggle-slider"></span>
+              <span class="toggle-text" id="lblCompleteStatus">Mark Completed</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- 120-Minute Weekday Battle Plan Card -->
+        <div class="mission-card glass-panel">
+          <div class="mission-header">
+            <div class="mission-phase-tag" id="missionPhaseTag">Phase 1: DSA & LLD Foundations</div>
+            <div class="mission-time-tag" id="missionTimeTag">⏱️ 120 Min Weekday Protocol</div>
+          </div>
+          
+          <h2 class="mission-topic" id="missionTopic">Arrays: Memory Model & Layout</h2>
+          <div class="mission-target-box">
+            <span class="target-icon">🎯</span>
+            <div>
+              <div class="target-title">Today's Target Deliverable:</div>
+              <div class="target-desc" id="missionTarget">Concatenation of Array (LC 1929), Contains Duplicate (LC 217)</div>
+            </div>
+          </div>
+
+          <!-- 4-Step Time Allocation Grid -->
+          <div class="time-block-grid">
+            <div class="time-block">
+              <div class="time-badge">15 MIN</div>
+              <div class="time-title">1. Active Recall</div>
+              <div class="time-desc">Close all notes. Explain yesterday's pattern out loud. What were the failure cases?</div>
+            </div>
+            <div class="time-block time-block-highlight">
+              <div class="time-badge">90 MIN</div>
+              <div class="time-title">2. Single Focus Code</div>
+              <div class="time-desc">Solve target problem in C#. Do NOT look at hints for the first 25 minutes. Write clean, modular code.</div>
+            </div>
+            <div class="time-block">
+              <div class="time-badge">10 MIN</div>
+              <div class="time-title">3. Complexity Check</div>
+              <div class="time-desc">Analyze Time O and Space O. State edge cases (empty input, negative numbers, integer overflow).</div>
+            </div>
+            <div class="time-block">
+              <div class="time-badge">5 MIN</div>
+              <div class="time-title">4. 1-Click Log</div>
+              <div class="time-desc">Write your 4-line micro-note below, toggle complete, and end your session.</div>
+            </div>
+          </div>
+
+          <!-- Micro-Note & Friction Log for the Day -->
+          <div class="day-notes-section">
+            <div class="notes-header">
+              <h3>📝 Today's 4-Line Micro-Note</h3>
+              <span class="notes-hint">(Trigger, Trick, Trap, Complexity)</span>
+            </div>
+            <textarea class="note-editor" id="txtDayNote" placeholder="Trigger: When to use this pattern...
+Core Trick: Invariant or pointer movement...
+The Trap: Edge case or mistake I made...
+Complexity: O(Time), O(Space)"></textarea>
+            <div class="notes-footer">
+              <button class="btn-primary" id="btnSaveNote">Save Note</button>
+              <span class="save-status" id="saveStatusIndicator">Auto-saved to localStorage</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Spaced Repetition Due Today Card -->
+        <div class="review-due-card glass-panel">
+          <div class="review-header">
+            <h3>🧠 Spaced Repetition Due Today</h3>
+            <span class="review-badge" id="reviewBadgeCount">0 topics due</span>
+          </div>
+          <div class="review-list" id="reviewDueList">
+            <div class="empty-state">No spaced repetition reviews scheduled for today. Keep building!</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. 224-DAY ROADMAP TAB -->
+    <section class="tab-pane" id="tabRoadmap">
+      <div class="roadmap-controls glass-panel">
+        <div class="filter-group">
+          <label>Filter Phase:</label>
+          <select id="selPhaseFilter" class="select-input">
+            <option value="all">All Phases (1 to 5)</option>
+            <option value="Phase 1">Phase 1: DSA & LLD Foundations</option>
+            <option value="Phase 2">Phase 2: Adv DSA, HLD & Project</option>
+            <option value="Phase 3">Phase 3: AI/Cloud & HLD</option>
+            <option value="Phase 4">Phase 4: Interview Launch</option>
+            <option value="Phase 5">Phase 5: Peak Offers</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label>Filter Focus:</label>
+          <select id="selFocusFilter" class="select-input">
+            <option value="all">All Tracks</option>
+            <option value="DSA">DSA Coding</option>
+            <option value="LLD">LLD Machine Coding</option>
+            <option value="HLD">HLD Architecture</option>
+            <option value="Project">Project Build</option>
+            <option value="Behavioral">Behavioral / Mocks</option>
+          </select>
+        </div>
+        <div class="search-group">
+          <input type="text" id="txtSearchRoadmap" class="search-input" placeholder="Search any topic, problem, or pattern...">
+        </div>
+      </div>
+
+      <div class="roadmap-grid" id="roadmapGrid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </section>
+
+    <!-- 3. DSA PATTERNS TAB -->
+    <section class="tab-pane" id="tabDSA">
+      <div class="dsa-header-box glass-panel">
+        <h2>🧩 The 14 Essential FAANG Algorithmic Patterns</h2>
+        <p>Master these patterns instead of memorizing 800 random problems. Each card includes the core mental model, sub-patterns, and standard archetypes.</p>
+      </div>
+      <div class="patterns-grid" id="patternsGrid">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+    <!-- 4. SYSTEM DESIGN (HLD/LLD) TAB -->
+    <section class="tab-pane" id="tabSystemDesign">
+      <div class="sd-subtabs">
+        <button class="subtab-btn active" data-subtab="subtabHLD" id="subtabBtnHLD">High-Level Design (8 Anchors)</button>
+        <button class="subtab-btn" data-subtab="subtabLLD" id="subtabBtnLLD">Low-Level Design (7 Anchors)</button>
+        <button class="subtab-btn" data-subtab="subtabSPOF" id="subtabBtnSPOF">SPOF Elimination Guide</button>
+      </div>
+
+      <div class="subtab-content active" id="subtabHLD">
+        <div class="sd-grid" id="hldGrid"></div>
+      </div>
+
+      <div class="subtab-content" id="subtabLLD">
+        <div class="sd-grid" id="lldGrid"></div>
+      </div>
+
+      <div class="subtab-content" id="subtabSPOF">
+        <div class="spof-container glass-panel" id="spofContainer"></div>
+      </div>
+    </section>
+
+    <!-- 5. NEXUSQUEUE PROJECT TAB -->
+    <section class="tab-pane" id="tabProject">
+      <div class="project-header glass-panel">
+        <div class="project-title-badge">PORTFOLIO SHOWCASE PROJECT</div>
+        <h2>NexusQueue: Distributed Task & AI Engine</h2>
+        <p>Built with C# .NET 8, PostgreSQL + pgvector, Redis, RabbitMQ, Docker & K8s with KEDA autoscaling.</p>
+      </div>
+      <div class="milestones-container" id="milestonesContainer"></div>
+    </section>
+
+    <!-- 6. BEHAVIORAL STAR TAB -->
+    <section class="tab-pane" id="tabBehavioral">
+      <div class="star-header glass-panel">
+        <h2>🎭 Behavioral Interview Story Bank (STAR Framework)</h2>
+        <p>Amazon Bar Raiser and Google Googlyness evaluate your past decisions, ownership, and conflict resolution. Rehearse these 6 real stories out loud.</p>
+      </div>
+      <div class="star-grid" id="starGrid"></div>
+    </section>
+
+    <!-- 7. MISTAKE REGISTER TAB -->
+    <section class="tab-pane" id="tabMistakes">
+      <div class="mistake-input-card glass-panel">
+        <h3>⚠️ Log a New Friction Point / Mistake</h3>
+        <p>Record the exact reason you got stuck on a problem so you can review it before interviews.</p>
+        <div class="mistake-form">
+          <input type="text" id="txtMistakeTopic" class="search-input" placeholder="Topic / Problem (e.g., 3Sum - LC 15)">
+          <textarea id="txtMistakeDesc" class="note-editor" placeholder="What caught me: I forgot to skip duplicate elements when advancing left and right pointers..."></textarea>
+          <button class="btn-primary" id="btnAddMistake">Add to Mistake Register</button>
+        </div>
+      </div>
+
+      <div class="mistakes-list glass-panel" id="mistakesList">
+        <!-- Rendered dynamically -->
+      </div>
+    </section>
+
+  </main>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
