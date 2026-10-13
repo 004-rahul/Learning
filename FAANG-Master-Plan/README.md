@@ -1,5 +1,7 @@
 # 🚀 FAANG/MAANG 6–8 Month Master Plan & Automated Tracker
 
+**Rebuilt 13 October 2026:** Use [the complete preparation collection](../FINAL-PLAN/START_HERE.md) for full notes and Q&A, every granular topic, the 6–8 month sequence and daily tracking. [Coverage report](../FINAL-PLAN/COVERAGE_REPORT.md) records preservation of original details. The older descriptions and schedules below remain available as reference history.
+
 Welcome to your redesigned, zero-friction engineering transformation system.
 
 ---
