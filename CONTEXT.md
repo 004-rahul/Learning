@@ -237,6 +237,17 @@ Ten web requests were spent on the four outstanding checks. Result:
 - **Ireland — no independent confirmation.** The NFQ Level 7 reading came back from the same class of secondary source the original research used. But NARIC runs a free searchable database and issues generic comparability statements through an online form where a qualification is not listed. That is the cheap way to settle it, and it either opens or closes the Irish market.
 - **Canada — no progress.** The CRS contradiction of 429 against 450-470 is still open and still first in priority. Resolve it with the official CRS tool, not a third-party calculator: several of those get the education-plus-language transferability tier wrong, which is exactly where the two figures diverge.
 
+## Session of 19 October 2026 — consolidation
+
+Added 19 October 2026. Nothing above was deleted.
+
+- Preparation had still not started (no tracker had any progress logged). The three overlapping plan generations — the August Study-Plan (THE_PLAN + TRACKER.xlsx), the 11 October FAANG-Master-Plan and the 13 October FINAL-PLAN — were merged into one folder, `PREPARATION/`, and the four old folders (`FAANG-Master-Plan`, `FINAL-PLAN`, `Q-and-A`, `Study-Plan`) were removed. The document system described in Part B above is superseded: the operating files are now `PREPARATION/PLAN.md`, the 32 week files in `PREPARATION/WEEKS/` and `PREPARATION/TRACKER.xlsx`.
+- Every original Q&A answer, lesson, problem list and template is kept word for word in `PREPARATION/NOTES/`, `PROJECT.md`, `RESOURCES.md` or `PREPARATION/ARCHIVE/` (the old plans and original trackers, reference only). A line-by-line check found all source lines present.
+- Known technical errors in the old material are corrected in place (⚠️ boxes) and listed in `PREPARATION/CORRECTIONS.md`. Both known unfixed errors listed in Part B (the "Doc 00" references and the "5 LLDs" text) are recorded there.
+- One project only: the distributed job platform in `PREPARATION/PROJECT.md`, built in milestones in Weeks 11–20 on .NET 10 LTS, with the doc-10 deduplication bug fixed and no invented benchmark numbers.
+- The relocation research in Parts C and D is unchanged and still unverified; the career chapter in `PREPARATION/NOTES/16_CAREER_APPLICATIONS_RELOCATION.md` has a status box and the manual verification checklist.
+- `Resume/` was not touched.
+
 ---
 
 # Part C - Unfinished research and open questions

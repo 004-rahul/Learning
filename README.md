@@ -1,9 +1,8 @@
 # Learning
 
-Start with [the complete preparation collection](FINAL-PLAN/START_HERE.md). It includes full notes and Q&A, every granular topic, a 6–8 month sequence and a daily progress CSV.
+**Start here: [PREPARATION/README.md](PREPARATION/README.md).**
 
-- [Read and search all notes](FINAL-PLAN/COMPLETE_NOTES.html)
-- [Daily tracker](FINAL-PLAN/DAILY_PROGRESS.csv)
-- [Source preservation and coverage](FINAL-PLAN/COVERAGE_REPORT.md)
+`PREPARATION/` is the single, final version of the preparation (consolidated 19 October 2026): one plan, 32 day-by-day week files, one tracker (`TRACKER.xlsx`), the complete notes and Q&A by subject with corrections, one project spec, every DSA problem and every design with the day it is scheduled. It replaces the old `FAANG-Master-Plan`, `FINAL-PLAN`, `Q-and-A` and `Study-Plan` folders; their content is inside it, and the old plans are kept word for word in `PREPARATION/ARCHIVE/` for reference only.
 
-Original source folders are preserved. The final collection includes the full original content within the scope recorded in the coverage report.
+- `Resume/` — resumes and cover letters (unchanged).
+- `CONTEXT.md` — goals, decisions and research status.

@@ -1,5 +1,2 @@
-# Keep archived originals byte-for-byte so preservation hashes remain valid.
-FINAL-PLAN/SOURCE_LIBRARY/** -text whitespace=-blank-at-eol,cr-at-eol
-
-# Two trailing spaces are meaningful Markdown line breaks.
+﻿# Two trailing spaces are meaningful Markdown line breaks.
 *.md whitespace=-blank-at-eol,cr-at-eol
